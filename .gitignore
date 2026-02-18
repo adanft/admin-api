@@ -1,0 +1,89 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Test/coverage outputs
+coverage.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Build output
+/bin/
+/build/
+/dist/
+*.bin
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# Local agent assets
+.agents/
+
+# IDE - JetBrains (GoLand, IntelliJ IDEA)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# IDE - Vim
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Application binary
+admin-api
+main
+
+# Coverage
+coverage.txt
+coverage.html
+*.cover
+*.coverprofile
+
+# Profiling
+*.prof
+*.pprof
+
+# Migration files output
+migrations/*.sql.bak
